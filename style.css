@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+h1 {
+    color: red;
+}
+
+
+@media only screen and (max-width: 599px) {
+  
+    .s, .m, .l, .vl {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  body {
+    background-color: yellow;
+    }
+  .vs, .m, .l, .vl {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: rgb(157, 255, 0);
+  }
+  .vs, .s, .l, .vl {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-color: rgb(0, 255, 221);
+  }
+  .vs, .s, .m, .vl {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: rgb(51, 0, 255);
+  }
+  .vs, .s, .m, .l {
+    display: none;
+  }
+}
